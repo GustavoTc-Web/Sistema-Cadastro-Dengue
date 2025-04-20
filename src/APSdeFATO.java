@@ -160,7 +160,7 @@ if (result == JOptionPane.OK_OPTION) {
     public static String buscarCasosPorRegiao(String regiao) {
         String url = "jdbc:mysql://localhost:3306/aps";
         String usuario = "root";
-        String senha = "mysql";
+        String senha = "SuaSenha123";
 
         String query = "SELECT casos FROM doencas WHERE regiao = ?";
 
@@ -184,7 +184,7 @@ if (result == JOptionPane.OK_OPTION) {
     public static String buscarObitosPorRegiao(String regiao) {
         String url = "jdbc:mysql://localhost:3306/aps";
         String usuario = "root";
-        String senha = "mysql";
+        String senha = "SuaSenha123";
 
         String query = "SELECT obitos FROM doencas WHERE regiao = ?";
 
