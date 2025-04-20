@@ -1,0 +1,21 @@
+
+CREATE DATABASE IF NOT EXISTS aps;
+USE aps;
+
+
+
+
+CREATE TABLE IF NOT EXISTS doencas (
+    id INT PRIMARY KEY,
+    regiao VARCHAR(100),
+    casos INT,
+    obitos INT
+);
+
+
+
+INSERT INTO doencas (id, regiao, casos, obitos) VALUES
+(1, 'Ipiranga', 882, 1),
+(2, 'Santo André', 2339, 2),
+(3, 'São Caetano', 8756, 5),
+(4, 'São Bernardo', 2000, 1);
