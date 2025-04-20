@@ -5,7 +5,7 @@ public class Conexao {
     public static String buscarCasosPorRegiao(String regiao) {
         String url = "jdbc:mysql://localhost:3306/aps";
         String usuario = "root";
-        String senha = "mysql";
+        String senha = "SuaSenha123";
 
         String query = "SELECT casos FROM doencas WHERE regiao = ?";
 
@@ -29,7 +29,7 @@ public class Conexao {
     public static String buscarObitosPorRegiao(String regiao) {
         String url = "jdbc:mysql://localhost:3306/aps";
         String usuario = "root";
-        String senha = "mysql";
+        String senha = "SuaSenha123";
 
         String query = "SELECT obitos FROM doencas WHERE regiao = ?";
 
